@@ -98,7 +98,7 @@ body {
     line-height: 24px;
 }
 
-.main-first-image {
+.main-first-video {
     width: 430px;
     min-height: 245px;
     float: right;
@@ -128,6 +128,11 @@ body {
     color: #333333;
     float: left;
     position: relative;
+}
+
+.main-second-section-details:nth-child(5),
+.main-second-section-details:nth-child(6) {
+margin: 0;
 }
 
 summary::-webkit-details-marker {
@@ -251,11 +256,16 @@ summary:before {
 }
 
 .reviews-item {
-    margin: 0;
+    margin: 0 0 20px 0;
     box-sizing: border-box;
     width: 49%;
     display: flex;
     justify-content: space-between;
+}
+
+.reviews-item:nth-child(4),
+.reviews-item:nth-child(5) {
+    margin: 0;
 }
 
 .author {
@@ -268,6 +278,9 @@ summary:before {
 
 .section-reviews-comment {
     width: 470px;
+    margin: 0;
+    padding: 16px;
+    box-sizing: border-box;
     background-color: #ebebeb;
     margin: 0 0 20px 0;
     border-radius: 10px;
@@ -285,7 +298,7 @@ summary:before {
 }
 
 .comment {
-    margin: 10px;
+    margin: 0;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -293,7 +306,8 @@ summary:before {
 }
 
 .comment-author {
-    margin: 10px;
+    display: block;
+    margin: 5px 0 0 0;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -312,6 +326,7 @@ summary:before {
 
 .buy {
     width: 100%;
+    margin: 0 0 20px 0;
     text-align: center;
     font-size: 24px;
     font-weight: 400;
@@ -373,7 +388,7 @@ summary:before {
   color: #fff;
   border: 1px solid #fff;
 }
-btn:active {
+.btn:active {
   background-color: #fff;
   color: #000;
   border: 1px solid #000;
