@@ -53,7 +53,7 @@ body {
     position: absolute;
     top: 3px;
     left: -36px;
-    background-image: url(img/check_icon.png);
+    background-image: url(../img/check_icon.png);
     background-size: cover;
 }
 
@@ -524,26 +524,34 @@ textarea[placeholder] {
 }
 
 .icon1 {
+    display: block;
     background-image: url(../img/skype_icon.png);
     background-repeat: no-repeat;
 }
 
 .icon2 {
+    display: block;
+    margin-top: 20px;
     background-image: url(../img/icq_icon.png);
     background-repeat: no-repeat;
 }
 
 .icon3 {
+    display: block;
+    margin-top: 20px;
     background-image: url(../img/email_icon.png);
     background-repeat: no-repeat;
 }
 
 .icon4 {
+    display: block;
+    margin-top: 20px;
     background-image: url(../img/phone_icon.png);
     background-repeat: no-repeat;
 }
 
 .social-icons {
+    margin-top: 45px;
     width: 350px;
 }
 
